@@ -15,6 +15,7 @@ import {
   ArrowRight
 } from "lucide-react";
 import { motion, AnimatePresence, useScroll, useSpring, useTransform } from "motion/react";
+import lkwBild from './portrait.jpg';
 
 interface Job {
   id: string;
@@ -325,7 +326,7 @@ export default function App() {
             <div className="relative w-full h-full rounded-[2.5rem] overflow-hidden">
               <motion.img 
                 style={{ y: heroImageY, scale: 1.15 }}
-                src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=1200&auto=format&fit=crop" 
+                src={lkwBild} 
                 alt="LKW Flotte" 
                 className="w-full h-full object-cover origin-top"
               />
