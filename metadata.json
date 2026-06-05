@@ -1,0 +1,6 @@
+{
+  "name": "Apex Premium & Hypercars",
+  "description": "Eine exklusive digitale Plattform für Premium-Fahrzeuge und Hypercars inspired by modern luxury design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
